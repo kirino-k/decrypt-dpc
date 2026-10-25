@@ -1,0 +1,9 @@
+script/splitaeskey
+*.key
+*.tar.aes
+*.tar
+*.txt.gz
+*.TXT.gz
+*.csv.gz
+*.CSV.gz
+
