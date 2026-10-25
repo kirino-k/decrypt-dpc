@@ -6,4 +6,4 @@ script/splitaeskey
 *.TXT.gz
 *.csv.gz
 *.CSV.gz
-
+token

@@ -1,7 +1,7 @@
 # Makefile for decrypt-dpc
 
 .PHONY: main
-main: script/splitaeskey
+main: script/splitaeskey executable
 	script/main.sh
 
 script/splitaeskey: script/splitaeskey.c

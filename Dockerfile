@@ -1,5 +1,7 @@
 FROM ubuntu:24.04
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 RUN <<EOF
 apt-get update -qq
 apt-get install -yq --no-install-recommends \
